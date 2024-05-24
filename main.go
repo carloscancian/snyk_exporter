@@ -273,6 +273,7 @@ func register(results []gaugeResult) {
 type gaugeResult struct {
 	organization string
 	project      string
+	isMonitored  bool
 	results      []aggregateResult
 }
 
